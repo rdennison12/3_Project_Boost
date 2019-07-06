@@ -118,7 +118,7 @@ Light:
     type: 3}
   m_PrefabInstance: {fileID: 7256313769822365862}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &212244535442252463
+--- !u!1001 &2114672002
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -128,7 +128,7 @@ PrefabInstance:
     - target: {fileID: 2002219738751499133, guid: 6c8c0d233e60f46f2bcb81502d7c67bf,
         type: 3}
       propertyPath: m_Name
-      value: Terrian
+      value: Terrain
       objectReference: {fileID: 0}
     - target: {fileID: 5928545043146776831, guid: 6c8c0d233e60f46f2bcb81502d7c67bf,
         type: 3}
@@ -276,7 +276,7 @@ PrefabInstance:
     - target: {fileID: 8056779755961466054, guid: b8a54c4b30adb47b38935ce6cb040d4a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: 8056779755961466054, guid: b8a54c4b30adb47b38935ce6cb040d4a,
         type: 3}
