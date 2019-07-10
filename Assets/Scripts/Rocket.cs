@@ -23,6 +23,20 @@ public class Rocket : MonoBehaviour
         Thrust();
         Rotate();
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        switch (collision.gameObject.tag)
+        {
+            case "Friendly":
+                print("OK");
+                break;
+            default:
+                print("YOU'RE DEAD!");
+                break;
+        }
+    }
+
     private void Thrust()
     {
         if (Input.GetKey(KeyCode.Space))
@@ -42,7 +56,7 @@ public class Rocket : MonoBehaviour
     {
         rigidBody.freezeRotation = true;
 
-        
+
         float rotationThisFrame = rcsThrust * Time.deltaTime;
 
         if (Input.GetKey(KeyCode.A))
