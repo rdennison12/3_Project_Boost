@@ -9,3 +9,5 @@
 * Created prefab of the obstacles
 * Added second level
 * Added particle effects, and an Oscillating script
+* Updated lighting, created method to loop through levels
+  * End of section three... will return to this project at a later time.
